@@ -11,15 +11,6 @@ public class HomeController {
 	{
 		
 		
-		//
-		//
-		//
-		//
-		//
-		//
-		//
-		
-		
 		return "Success!!";
 	}
 

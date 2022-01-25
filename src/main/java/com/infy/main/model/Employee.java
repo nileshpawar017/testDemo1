@@ -4,6 +4,15 @@ public class Employee {
 	
 	private int eId;
 	private String eName;
+	private String eaddress;
+
+	public String getEaddress() {
+		return eaddress;
+	}
+
+	public void setEaddress(String eaddress) {
+		this.eaddress = eaddress;
+	}
 
 	public Employee(int eId, String eName)
 	{
