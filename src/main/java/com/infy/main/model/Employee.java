@@ -6,6 +6,7 @@ public class Employee {
 	private String eName;
 	private String eaddress;
     private String mobno;
+
     private double salary;
     
     
@@ -15,6 +16,17 @@ public class Employee {
 
 	public void setSalary(double salary) {
 		this.salary = salary;
+	}
+    private String designation;
+    
+    
+	public String getDesignation() {
+		return designation;
+	}
+
+	public void setDesignation(String designation) {
+		this.designation = designation;
+
 	}
 
 	public String getMobno() {
