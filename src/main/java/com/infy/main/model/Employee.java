@@ -6,7 +6,17 @@ public class Employee {
 	private String eName;
 	private String eaddress;
     private String mobno;
+    private String designation;
     
+    
+	public String getDesignation() {
+		return designation;
+	}
+
+	public void setDesignation(String designation) {
+		this.designation = designation;
+	}
+
 	public String getMobno() {
 		return mobno;
 	}
