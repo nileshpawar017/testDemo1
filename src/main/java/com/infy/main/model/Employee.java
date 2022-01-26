@@ -5,6 +5,15 @@ public class Employee {
 	private int eId;
 	private String eName;
 	private String eaddress;
+    private String mobno;
+    
+	public String getMobno() {
+		return mobno;
+	}
+
+	public void setMobno(String mobno) {
+		this.mobno = mobno;
+	}
 
 	public String getEaddress() {
 		return eaddress;
